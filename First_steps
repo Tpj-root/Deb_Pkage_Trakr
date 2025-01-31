@@ -34,6 +34,30 @@ gsettings get org.gnome.shell favorite-apps
 
 
 
+Time sync
+
+```
+timedatectl status
+sudo timedatectl set-timezone Asia/Kolkata
+```
+
+
+
+How to view tamil fonts setup firefox
+
+```
+sudo apt install fonts-taml
+```
+Enable Complex Scripts in Firefox
+Open Firefox settings (about:config in the address bar).
+Ensure it is set to 1 (enabled).
+```
+gfx.font_rendering.harfbuzz.scripts
+
+```
+
+
+
 
 
 
@@ -91,8 +115,8 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 
-
-
+git config --global user.name "Tpj-root"
+git config --global user.email "trichy_hackerspace@outlook.com"
 
 
 alias addkey='ssh-add /home/cnc/Documents/KEY/id_rsa'
