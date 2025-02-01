@@ -39,7 +39,7 @@ install_software_from_file() {
 }
 
 # Path to the Basic_software.list file (assumed to be in the same directory as the script)
-software_list_file="$(dirname "$0")/Basic_software.list"
+software_list_file="$(dirname "$0")/basic_software.list"
 
 # Install each software from the Basic_software.list file
 install_software_from_file "$software_list_file"
@@ -52,7 +52,7 @@ add_aliases_from_file() {
     local script_dir=$(dirname "$0")
     
     # Define the alias file path
-    local alias_file="$script_dir/Alias_Backup.alias"
+    local alias_file="$script_dir/alias_backup.alias"
     
     if [[ -f "$alias_file" ]]; then
         echo "Adding aliases from $alias_file to ~/.bashrc..."
@@ -63,7 +63,7 @@ add_aliases_from_file() {
 }
     
     
-add_aliases_from_file
+#add_aliases_from_file
 
 
 

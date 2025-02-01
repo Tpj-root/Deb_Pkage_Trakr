@@ -46,4 +46,4 @@ backup_bashrc() {
 
 # Call the function to back up the package list
 backup_dpkg_list
-backup_bashrc
+#backup_bashrc
