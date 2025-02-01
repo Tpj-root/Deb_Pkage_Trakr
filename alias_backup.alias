@@ -213,3 +213,13 @@ alias ins='sudo apt-get install'
 alias miniconda_activate='source /home/cnc/miniconda3/bin/activate'
 alias miniconda_deactivate='conda deactivate'
 alias gitrestore='git restore -- .'
+
+
+
+## DAY_003
+#
+#
+# System Commands
+#
+#
+alias back='cd -'

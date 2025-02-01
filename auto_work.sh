@@ -6,7 +6,8 @@ install_software() {
 
     # Check if the software is already installed
     if dpkg -l | grep -q "^ii  $software"; then
-        echo "$software is already installed."
+        # Print the software name in green
+        echo -e "\033[0;32m$software\033[0m is already installed."
     else
         echo "Installing $software..."
         sudo apt update

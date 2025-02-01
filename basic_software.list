@@ -46,6 +46,8 @@ libssl-dev: SSL/TLS libraries for secure communication.
 #
 ###### sudo apt install libfreetype6-dev
 libfreetype6-dev: FreeType a library used for rendering fonts, enabling text display in graphics applications.
+libsdl2-dev: SDL2, a multimedia library for handling graphics, input, and sound
+freeglut3-dev: GLUT, a toolkit for creating OpenGL applications
 #
 #
 #
