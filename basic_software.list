@@ -16,10 +16,37 @@ figlet: A program that generates text banners using ASCII characters.
 #
 #
 #
+#
 ######
 #
-# For library
+# Essential Development Tools for Building and Debugging
+#
+#
+######
+gcc: C compiler
+g++: C++ compiler
+gdb: Debugger
+cmake: CMake is a cross-platform build system that automates build generation and project configuration.
+ninja-build: Ninja is a fast build tool 
+#
+#
+#
+######
+#
+# Essential Development Tools for Building and Debugging
 #
 #
 ######
 libglfw3-dev: Development package for GLFW, a library for creating windows and managing OpenGL contexts.
+libboost-dev: High-performance C++ libraries for tasks like multithreading, filesystem operations, networking, and mathematical computations.
+libssl-dev: SSL/TLS libraries for secure communication.
+######
+#
+# Dear ImGui Bloat-free Graphical User interface for C++ with minimal dependencies
+#
+###### sudo apt install libfreetype6-dev
+libfreetype6-dev: FreeType a library used for rendering fonts, enabling text display in graphics applications.
+#
+#
+#
+######
