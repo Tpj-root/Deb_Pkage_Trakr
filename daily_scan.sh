@@ -39,6 +39,23 @@ backup_bashrc() {
 }
 
 
+backup_hosts() {
+    # Get today's date in the format YYYY-MM-DD
+    local today=$(date +%F)
+
+    # Define the backup folder and file path (within the current directory)
+    local backup_folder="./host"
+    local backup_file="$backup_folder/hosts_$today"
+
+    # Create the backup folder if it doesn't exist
+    mkdir -p "$backup_folder"
+
+    # Copy the ~/.bashrc to the backup file
+    cp /etc/hosts "$backup_file"
+
+    # Inform the user
+    echo "~/.bashrc backed up to $backup_file"
+}
 
 
 
@@ -47,3 +64,4 @@ backup_bashrc() {
 # Call the function to back up the package list
 backup_dpkg_list
 #backup_bashrc
+backup_hosts

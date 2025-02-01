@@ -4,6 +4,7 @@
 #
 #
 ######
+fonts-taml: A package providing Tamil font support for Linux systems.
 git: A version control system for tracking changes in source code.
 gedit: A simple text editor for the GNOME desktop environment.
 curl: A command-line tool for transferring data with URLs.
