@@ -140,3 +140,52 @@ chmod 644 <PUBLKEY>
 ```
 
 
+
+
+
+sources.list for bullseye
+
+https://gist.github.com/ishad0w/7665cde882aa7dc3eec99613802e61e4
+
+https://packages.debian.org/bullseye/apt
+
+https://wiki.debian.org/SourcesList
+
+
+
+
+
+
+
+sudo apt-get install nvidia-legacy-390xx-driver
+
+nvidia-legacy-390xx-driver
+
+
+
+
+
+
+
+cnc@debian:~$ lspci | grep -i nvidia
+01:00.0 VGA compatible controller: NVIDIA Corporation GF119 [GeForce GT 610] (rev a1)
+01:00.1 Audio device: NVIDIA Corporation GF119 HDMI Audio Controller (rev a1)
+cnc@debian:~$ 
+
+
+
+cnc@debian:~$ nvidia-smi
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
+cnc@debian:~$ lsmod | grep nvidia
+
+
+
+sudo apt-get install psmisc
+
+
+
+
+
+
+
