@@ -332,3 +332,4 @@ raybuild() {
 alias ray='raybuild'
 alias t='touch'
 alias e='exit'
+alias k8000='sudo kill -9 $(lsof -t -i:8000)'
